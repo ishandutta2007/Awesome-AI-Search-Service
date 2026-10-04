@@ -1,229 +1,156 @@
-# Awesome-AI-Search-Service
+# Awesome AI Search Service 🔍🚀
 
-# Awesome AI Search Service
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Search Service Banner" width="100%">
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Service/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Search-Service?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Service/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Search-Service?style=flat-square&logo=github" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Service/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Search-Service?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Overview & Market Context
 
-*Focused on Vector Search, Hybrid Retrieval, Semantic Ranking & Neural Search*  
+Welcome to **Awesome AI Search Service**—a comprehensive, curated directory of production-grade **SaaS search platforms**, **vector databases**, **hybrid retrieval engines**, **semantic rankers**, and **open-source AI search engines**.
 
-**Last updated: October 2026**
+Whether you are building **Retrieval-Augmented Generation (RAG)** pipelines, enterprise semantic search, e-commerce product discovery, or real-time neural recommendation systems, this guide compares top-tier solutions across features, pricing tiers, free quotas, open-source GitHub star counts, and enterprise scale.
 
+### 📊 Market Size & Industry Dynamics
 
+> 💡 **Market Opportunity**: The global AI Search Services & Vector Database market is estimated at **$2.5 Billion+ in 2026** and is projected to expand at a **CAGR of ~34% through 2030**, driven by rapid adoption of LLMs, enterprise RAG architectures, and agentic search workflows.
+>
+> ⚡ **Market Structure**: The sector is **moderately fragmented**, exhibiting a dual-tier market dynamic:
+> - **Hyperscale Cloud & Big Tech** (Alphabet/Google, Microsoft, Amazon Web Services) hold dominant positions for integrated enterprise search, security compliance, and multi-tenant cloud ecosystems.
+> - **Specialized AI Infrastructure Leaders** (Pinecone, Qdrant, Weaviate, Algolia, Elastic) capture significant high-growth developer mindshare by pioneering specialized HNSW/vector indexing, hybrid BM25 + sparse/dense retrieval, and low-latency API developer experiences.
+> - **Winner-Take-Most Tendency**: While open-source standards (Rust-based engines, HNSW, Raft consensus) prevent absolute monopoly, network effects around developer integrations, SDK ecosystems, and cloud managed services favor a few category leaders per specialized sub-niche.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Search Services**. These tools help applications deliver semantic, hybrid, and neural search experiences—combining keyword matching with vector similarity for retrieval-augmented generation (RAG), recommendations, and enterprise search.
+---
 
+## 📑 Table of Contents
 
+- [☁️ SaaS / Hosted AI Search Platforms](#-saas--hosted-ai-search-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🗄️ Vector Databases](#-vector-databases)
+  - [🔎 Full-Text & Instant Search Engines](#-full-text--instant-search-engines)
+  - [🛠️ Search Infrastructure, Frameworks & Libraries](#-search-infrastructure-frameworks--libraries)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 
-**Examples** include Azure Cognitive Search, Algolia, Elasticsearch Service, Pinecone, Weaviate Cloud, Qdrant Cloud, Amazon Kendra, Google Cloud Vertex AI Search, Coveo, and Typesense Cloud (the category leaders).
+---
 
+## ☁️ SaaS / Hosted AI Search Platforms
 
+Below is a detailed comparison of managed AI Search Service platforms sorted by **Company Scale / Valuation (Descending)**:
 
-**Open-source emphasis**: AI search services have an **exceptionally mature open-source ecosystem**. **Qdrant** (Apache-2.0) leads vector databases with **24,000+ stars**, Rust performance, and hybrid search support . **Weaviate** (BSD-3) delivers **14,000+ stars** with built-in vectorization modules and GraphQL API . **Milvus** (Apache-2.0) scales to **billions of vectors** with **33,000+ stars** . **Typesense** (GPL-3) provides typo-tolerant instant search with **21,000+ stars** . **Meilisearch** (MIT) offers lightning-fast search with **50,000+ stars** . **Elasticsearch** and **OpenSearch** remain the workhorses for full-text search at scale. This section documents these production-grade solutions.
+| Product & Description | Company Scale / Valuation | Starting Pricing Tier | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Google Cloud Vertex AI Search](https://cloud.google.com/enterprise-search)**<br>Enterprise search & recommendation platform powered by Google LLMs and Gemini. Features Workspace/SharePoint connectors, multi-modal search, and RAG pipelines. | **$4.15 Trillion** Market Cap<br>*(Alphabet Inc., $403B+ Rev)* | **General Standard Edition**: **$1.50 per 1,000 queries** (+ data storage charges). *Enterprise*: $4.00 per 1,000 queries. | **Free Tier**: 10,000 queries/month free + $300 Google Cloud 90-day trial credit for new accounts. |
+| **[Azure AI Search (Cognitive Search)](https://azure.microsoft.com/en-us/products/ai-services/ai-search)**<br>Microsoft's enterprise search service with AI enrichment, vector search (HNSW/KNN), hybrid retrieval, BM25 ranking, and L1/L2 semantic reranking. | **$3.84 Trillion** Market Cap<br>*(Microsoft Corp., $330B+ Rev)* | **Basic Tier**: Starts at **$0.104/hour** (~$75/month) for a dedicated Search Unit (SU). | **Free Tier**: 50 MB storage, 1 search service per subscription, no expiration. |
+| **[Amazon Kendra](https://aws.amazon.com/kendra/)**<br>Enterprise ML search service with natural language query extraction, ACL-aware security, and native connectors for S3, SharePoint, Salesforce, and Confluence. | **$2.68 Trillion** Market Cap<br>*(Amazon.com Inc., $716B+ Rev)* | **GenAI Enterprise Edition**: **$0.32/hour** (~$230/month). *Basic Developer Edition*: **$1.125/hour** (~$810/month). | **Free Trial**: 750 hours of free usage for Developer Edition within the first 30 days. |
+| **[Elasticsearch Service](https://www.elastic.co/cloud)**<br>Managed Elasticsearch on Elastic Cloud. Supports vector search (HNSW, kNN), ELSER sparse retrieval, hybrid BM25 + vector search, and automated chunking. | **$9.5 Billion** Market Cap<br>*(Elastic N.V., NYSE: ESTC)* | **Standard Plan**: Starts at **$99/month** (~$0.0576/hour for minimal 120 GB node allocation). | **Free Trial**: 14-day free trial with 8 GB RAM / 240 GB storage deployment. |
+| **[Algolia](https://www.algolia.com/)**<br>Search & discovery API with sub-50ms response times. Features typo tolerance, NeuralSearch (semantic & hybrid), Recommend, and Dynamic Re-Ranking. | **$2.3 Billion** Valuation<br>*(Private, $100M+ ARR)* | **Grow Plan**: **$0.50 per 1,000 search requests** and **$0.40 per 1,000 records** (pay-as-you-go). | **Build Plan (Free)**: 10,000 search requests/month and 50,000 records (1 GB max). |
+| **[Pinecone](https://www.pinecone.io/)**<br>Fully managed serverless vector database with automatic scaling, sparse-dense hybrid search, metadata filtering, and integrated embedding models. | **$750 Million** Valuation<br>*(Private, Series B)* | **Standard Plan**: Starts at **$50/month minimum spend** (usage-based meters for RUs, WUs, storage). *Builder*: $20/mo. | **Starter Plan (Free)**: 5 serverless indexes, 2 GB storage, 2M write units/month, 1M read units/month. |
+| **[Weaviate Cloud](https://weaviate.io/)**<br>Managed Weaviate vector database with GraphQL & REST APIs, BM25 + vector hybrid search, generative search (RAG), and multi-tenant isolation. | **$200 Million** Valuation<br>*(Private, Series B)* | **Flex Plan**: Starts at **$45/month** (pay-as-you-go shared cloud cluster with 99.5% SLA). | **Free Plan**: 1 cluster, 100,000 objects, 1 GB RAM, 10 GB disk (includes 2k embedding req/day). |
+| **[Qdrant Cloud](https://qdrant.tech/)**<br>Managed Qdrant vector database built in Rust. Features payload filtering, quantization (scalar/product/binary), sparse-dense hybrid search, and sharding. | **$120 Million+** Valuation<br>*(Private, $87.8M Raised)* | **Cluster Tier**: Metered hourly usage based on vCPU and RAM (~$25–$30/month for minimal 2 GB cluster). | **Free Tier**: 1 cluster with 0.5 vCPU, 1 GB RAM, 4 GB disk storage (~1M 768-dim vectors). |
+| **[Coveo](https://www.coveo.com/)**<br>AI relevance platform for enterprise customer & employee search. Features Relevance Generative AI with citations, Case Assist AI, and unified indexing. | **~$800 Million** Market Cap<br>*(TSX: CVO, $120M+ Rev)* | **Pro / Enterprise**: Custom annual contracts starting at **~$990/month** ($11,880/year) up to $30k–$150k+/year. | **Free Trial**: 14-day free trial (no perpetual free plan; custom enterprise quotes). |
+| **[Typesense Cloud](https://typesense.org/cloud/)**<br>Managed Typesense featuring sub-50ms typo-tolerant instant search, geo-search, faceted search, HNSW vector search, and hybrid retrieval. | **Bootstrapped / Private**<br>*(Profitable, Independent)* | **Cluster Tier**: Resource-based pricing starting at **$0.03/hour** (~$21.60/month for smallest RAM allocation). | **Free Tier**: 720 hours of cluster usage (1 month) + 10 GB bandwidth free credit upon registration. |
 
+---
 
+## ⚡ Open-Source GitHub Projects
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+The open-source ecosystem for AI search services is exceptionally mature and production-proven. Projects below are sorted by **GitHub Star Count (Descending)**.
 
+### 🗄️ Vector Databases
 
+- [<img src="https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white" alt="Milvus Stars"/>](https://github.com/milvus-io/milvus/stargazers) **[Milvus](https://github.com/milvus-io/milvus)**  
+  **Enterprise-scale open-source vector database for AI workloads.** **Apache-2.0**, **33,000+ stars**. Key features: Handles billions of vectors with a decoupled cloud-native architecture; independent scaling of query, index, and data nodes; supports HNSW, IVF, DiskANN, SCANN; GPU acceleration; streaming ingestion.
 
-## Table of Contents
+- [<img src="https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white" alt="Qdrant Stars"/>](https://github.com/qdrant/qdrant/stargazers) **[Qdrant](https://github.com/qdrant/qdrant)**  
+  **High-performance vector database written in Rust.** **Apache-2.0**, **24,000+ stars**. Key features: Hybrid search combining sparse and dense vectors; rich payload filtering; scalar/product/binary quantization for high memory efficiency; HNSW indexing; REST & gRPC APIs.
 
+- [<img src="https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white" alt="Weaviate Stars"/>](https://github.com/weaviate/weaviate/stargazers) **[Weaviate](https://github.com/weaviate/weaviate)**  
+  **Open-source vector database with GraphQL & REST APIs.** **BSD-3-Clause**, **14,000+ stars**. Key features: Hybrid search combining BM25 and dense vectors; generative RAG modules; built-in vectorization for text (OpenAI, Cohere, Hugging Face) and images (CLIP); cross-references between data objects.
 
+- [<img src="https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white" alt="Chroma Stars"/>](https://github.com/chroma-core/chroma/stargazers) **[ChromaDB](https://github.com/chroma-core/chroma)**  
+  **Open-source embedding database for AI application development.** **Apache-2.0**, **16,000+ stars**. Key features: Developer-friendly API for Python and JavaScript; built-in document chunking and vectorization; lightweight embedded mode for local prototyping and fast RAG iteration.
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [<img src="https://img.shields.io/github/stars/lancedb/lancedb?style=social&color=white" alt="LanceDB Stars"/>](https://github.com/lancedb/lancedb/stargazers) **[LanceDB](https://github.com/lancedb/lancedb)**  
+  **Developer-friendly, serverless embedded vector database powered by Lance format.** **Apache-2.0**, **6,000+ stars**. Key features: Multi-modal search (text, image, video); zero-management embedded database architecture; disk-based index scaling without keeping vectors entirely in RAM.
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+- [<img src="https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white" alt="pgvector Stars"/>](https://github.com/pgvector/pgvector/stargazers) **[pgvector](https://github.com/pgvector/pgvector)**  
+  **Open-source vector similarity search extension for PostgreSQL.** **MIT**, **13,000+ stars**. Key features: Adds HNSW and IVFFlat index types directly inside PostgreSQL; exact and approximate nearest neighbor search; effortless integration with existing relational SQL databases and ACID transactions.
 
-- [How to Contribute](#how-to-contribute)
+### 🔎 Full-Text & Instant Search Engines
 
-- [Disclaimer](#disclaimer)
+- [<img src="https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white" alt="Elasticsearch Stars"/>](https://github.com/elastic/elasticsearch/stargazers) **[Elasticsearch](https://github.com/elastic/elasticsearch)**  
+  **The world's most widely deployed search and analytics engine.** **Elastic License 2.0 / SSPL**, **72,000+ stars**. Key features: Distributed full-text BM25 search; vector search with HNSW and kNN; ELSER sparse model for semantic search; automated inference APIs; analytics aggregations.
 
+- [<img src="https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white" alt="Meilisearch Stars"/>](https://github.com/meilisearch/meilisearch/stargazers) **[Meilisearch](https://github.com/meilisearch/meilisearch)**  
+  **Lightning-fast, open-source instant search engine written in Rust.** **MIT**, **50,000+ stars**. Key features: Sub-50ms search response; typo tolerance out-of-the-box; faceted filtering; AI-powered vector and hybrid search support; simple REST API.
 
+- [<img src="https://img.shields.io/github/stars/typesense/typesense?style=social&color=white" alt="Typesense Stars"/>](https://github.com/typesense/typesense/stargazers) **[Typesense](https://github.com/typesense/typesense)**  
+  **Fast, typo-tolerant open-source search engine.** **GPL-3.0**, **21,000+ stars**. Key features: Sub-50ms query response; in-memory C++ architecture; HNSW vector search; hybrid search combining keyword and embeddings; Raft-based high availability replication.
 
-## SaaS/Hosted Platforms
+- [<img src="https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white" alt="OpenSearch Stars"/>](https://github.com/opensearch-project/OpenSearch/stargazers) **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**  
+  **Community-driven open-source search and analytics suite.** **Apache-2.0**, **10,000+ stars**. Key features: Full-text BM25 search; k-NN vector search plugin; neural search with machine learning model pipelines; SQL support; fine-grained security.
 
+### 🛠️ Search Infrastructure, Frameworks & Libraries
 
+- [<img src="https://img.shields.io/github/stars/searxng/searxng?style=social&color=white" alt="SearXNG Stars"/>](https://github.com/searxng/searxng/stargazers) **[SearXNG](https://github.com/searxng/searxng)**  
+  **Free internet metasearch engine focused on privacy.** **AGPL-3.0**, **18,000+ stars**. Key features: Aggregates results from 70+ search engines; zero tracking and user privacy; self-hosted JSON API backend for AI agents.
 
-- **[Azure Cognitive Search](https://azure.microsoft.com/en-us/products/ai-services/ai-search)**
+- [<img src="https://img.shields.io/github/stars/marqo-ai/marqo?style=social&color=white" alt="Marqo Stars"/>](https://github.com/marqo-ai/marqo/stargazers) **[Marqo](https://github.com/marqo-ai/marqo)**  
+  **Vector search engine for multi-modal and tensor search.** **Apache-2.0**, **4,000+ stars**. Key features: Integrated embedding generation; multi-modal image and text search; end-to-end vector pipeline for RAG and e-commerce discovery.
 
-  **Microsoft's enterprise search service with AI enrichment and vector search.** **Key features**: Full-text search with BM25 ranking; **vector search** with HNSW and exhaustive KNN; **hybrid search** combining keyword and vector; **semantic ranker** (L1/L2) for reranking; **integrated vectorization** using Azure OpenAI embeddings; **AI enrichment pipelines** for OCR, entity extraction, key phrase extraction, and sentiment; **RAG-ready** with chunking, enrichment, and document-level access control; **built-in security** with Microsoft Entra ID, private endpoints, and customer-managed keys . **Scale**: Auto-scaling replicas and partitions; deterministic and autocomplete index modes . **Integration**: Azure AI Studio, LangChain, LlamaIndex, Azure OpenAI On Your Data .
+- [<img src="https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white" alt="Vespa Stars"/>](https://github.com/vespa-engine/vespa/stargazers) **[Vespa](https://github.com/vespa-engine/vespa)**  
+  **Big data serving engine for vector search and real-time machine learning ranking.** **Apache-2.0**, **5,000+ stars**. Key features: High-throughput HNSW vector search; hybrid ranking; real-time indexing; scalable to billions of documents.
 
+- [<img src="https://img.shields.io/github/stars/typesense/typesense-dashboard?style=social&color=white" alt="Typesense Dashboard Stars"/>](https://github.com/typesense/typesense-dashboard/stargazers) **[Typesense Dashboard](https://github.com/typesense/typesense-dashboard)**  
+  **Web-based GUI dashboard for managing Typesense clusters.** **GPL-3.0**, **1,000+ stars**. Key features: Browse collections; test search queries; manage API keys; monitor server metrics.
 
+---
 
-- **[Algolia](https://www.algolia.com/)**
+## 🤝 How to Contribute
 
-  **Search and discovery API with sub-50ms response times.** **Key features**: Typo tolerance; **NeuralSearch** for semantic and hybrid search; **Recommend** for AI-powered recommendations (Related Products, Frequently Bought Together, Trending Items); **Dynamic Re-Ranking** for personalization . SDKs for JavaScript, Python, Go, Java, C#, PHP, Kotlin, Swift, Dart . **Best for**: E-commerce, media, and SaaS applications needing fast, relevant search.
+Contributions are welcome! To contribute to **Awesome AI Search Service**:
 
+1. Fork this repository.
+2. Add or update entries in `README.md` keeping descriptions factual, concise, and linked to official documentation.
+3. Verify open-source repository star counts or SaaS pricing plans before submitting.
+4. Open a Pull Request on [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) with a brief summary of changes.
 
+---
 
-- **[Elasticsearch Service](https://www.elastic.co/cloud)**
+## ⚠️ Disclaimer
 
-  **Managed Elasticsearch on Elastic Cloud.** **Key features**: **Vector search** with HNSW and kNN; **ELSER** (Elastic Learned Sparse Encode Retrieval) for semantic search; **hybrid search** combining BM25 and vector; **semantic text** field type for automated embedding generation and chunking; **RAG-ready** with chunking, reranking, and inference APIs . **Scale**: Petabyte-scale; distributed architecture; cross-cluster search . **Deployment**: Elastic Cloud, self-managed, or serverless .
+- This is a community-curated list intended for informational and architectural guidance.
+- Product pricing and free tier quotas fluctuate over time; always confirm latest details on official provider websites.
+- AI Search Services handle user query data; ensure compliance with GDPR, SOC2, HIPAA, and organizational privacy policies when deploying commercial or open-source solutions.
 
+---
 
+## 📈 Star History
 
-- **[Pinecone](https://www.pinecone.io/)**
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Search-Service&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Search-Service&type=date&legend=top-left)
 
-  **Fully managed vector database for AI applications.** **Key features**: **Serverless** architecture with automatic scaling; **hybrid search** with sparse-dense vectors; **metadata filtering**; **namespaces** for multi-tenancy; **real-time updates**; **RAG-ready** with integrated embedding models . **Best for**: Teams wanting managed vector search without infrastructure operations.
+---
 
+## 💖 Support & Sponsorship
 
+If you found **Awesome AI Search Service** helpful for your project, architectural research, or team stack selection, please consider supporting the project!
 
-- **[Weaviate Cloud](https://weaviate.io/)**
+- 🌟 **Star the Repository**: Click the Star button at the top right to boost visibility.
+- 🔀 **Fork & Share**: Share this repository with fellow developers, data engineers, and AI practitioners.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance and curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-  **Managed Weaviate with GraphQL and REST APIs.** **Key features**: **Hybrid search** combining BM25 and vector; **generative search** (RAG) with LLM integration; **multi-tenancy** with tenant isolation; **built-in vectorization modules** for text, images, and multi-modal data; **cross-references** between objects; **backup and restore** . **Best for**: Applications needing a semantic layer with rich object relationships.
-
-
-
-- **[Qdrant Cloud](https://qdrant.tech/)**
-
-  **Managed Qdrant with Rust performance and hybrid search.** **Key features**: **Hybrid search** with sparse and dense vectors; **payload filtering** with rich conditions; **multi-tenancy** with collections and sharding; **quantization** for memory efficiency; **snapshot and recovery**; **distributed deployment** for scale . **Best for**: Teams wanting high-performance vector search with advanced filtering.
-
-
-
-- **[Amazon Kendra](https://aws.amazon.com/kendra/)**
-
-  **Enterprise search service powered by machine learning.** **Key features**: **Natural language queries** with answer extraction; **document ranking** with semantic understanding; **connectors** for S3, SharePoint, Salesforce, ServiceNow, Confluence, and more; **access control** with ACL-aware search; **incremental learning** from user feedback . **Best for**: Enterprise search across multiple data sources.
-
-
-
-- **[Google Cloud Vertex AI Search](https://cloud.google.com/enterprise-search)**
-
-  **Enterprise search and recommendations from Google.** **Key features**: **Semantic search** with LLM-powered understanding; **RAG** with Vertex AI Gemini; **connectors** for Google Workspace, SharePoint, and third-party sources; **multi-modal search**; **recommendations** for retail and media . **Best for**: Organizations in the Google Cloud ecosystem.
-
-
-
-- **[Coveo](https://www.coveo.com/)**
-
-  **AI-powered relevance platform for customer and employee experiences.** **Key features**: **Relevance Generative AI** for synthesized answers with citations; **Case Assist AI** for support deflection; **unified content indexing** across Salesforce, ServiceNow, and more; **analytics** with continuous learning . **Best for**: Customer service and employee experience search.
-
-
-
-- **[Typesense Cloud](https://typesense.org/cloud/)**
-
-  **Managed Typesense with typo-tolerant instant search.** **Key features**: **Sub-50ms search**; **typo tolerance** with configurable fuzziness; **faceted search**; **geo-search**; **vector search** with HNSW; **hybrid search**; **multi-tenancy** with scoped API keys . **Best for**: Teams wanting fast, typo-tolerant search with a simple API.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Vector Databases
-
-
-
-- **[Qdrant](https://github.com/qdrant/qdrant)**  
-
-  **The leading open-source vector database written in Rust.** **Apache-2.0 licensed**, **24,000+ GitHub stars** . **Key features**: **Hybrid search** combining sparse and dense vectors; **payload filtering** with rich conditions; **multi-tenancy** with collections and sharding; **quantization** (scalar, product, binary) for memory efficiency; **HNSW indexing** with configurable parameters; **snapshot and recovery**; **distributed deployment** for horizontal scaling . **REST and gRPC APIs**; SDKs for Python, JavaScript, Rust, Go, Java, C# . **Best for**: Teams wanting high-performance vector search with advanced filtering and hybrid capabilities.
-
-
-
-- **[Weaviate](https://github.com/weaviate/weaviate)**  
-
-  **Open-source vector database with GraphQL and REST APIs.** **BSD-3 licensed**, **14,000+ GitHub stars** . **Key features**: **Hybrid search** combining BM25 and vector; **generative search** (RAG) with LLM integration; **multi-tenancy** with tenant isolation; **built-in vectorization modules** for text (OpenAI, Cohere, Hugging Face), images (CLIP), and multi-modal data; **cross-references** between objects; **backup and restore** . **Best for**: Applications needing a semantic layer with rich object relationships and built-in vectorization.
-
-
-
-- **[Milvus](https://github.com/milvus-io/milvus)**  
-
-  **Enterprise-scale vector database for AI workloads.** **Apache-2.0 licensed**, **33,000+ GitHub stars** . **Key features**: **Billions of vectors** with decoupled, cloud-native architecture; **independent scaling** of query, index, and data nodes; **multiple index types** (HNSW, IVF, DiskANN, SCANN); **GPU acceleration**; **multi-tenancy**; **streaming and batch ingestion** . **Best for**: Large-scale AI applications needing to handle billions of vectors.
-
-
-
-### Full-Text Search Engines
-
-
-
-- **[Typesense](https://github.com/typesense/typesense)**  
-
-  **Fast, typo-tolerant open-source search engine.** **GPL-3.0 licensed**, **21,000+ GitHub stars** . **Key features**: **Sub-50ms search**; **typo tolerance** with configurable fuzziness; **faceted search**; **geo-search**; **vector search** with HNSW; **hybrid search**; **multi-tenancy** with scoped API keys; **synonyms and curation**; **Raft-based replication** . **Best for**: Teams wanting fast, typo-tolerant search with a simple API.
-
-
-
-- **[Meilisearch](https://github.com/meilisearch/meilisearch)**  
-
-  **Lightning-fast, open-source search engine.** **MIT licensed**, **50,000+ GitHub stars** . **Key features**: **Instant search** with sub-50ms response; **typo tolerance**; **faceted search**; **geo-search**; **vector search** with hybrid capabilities; **multi-tenancy** with tenant tokens; **AI-powered search** with embeddings; **REST API**; SDKs for JavaScript, Python, Rust, Go, Java, PHP, Ruby, Swift, .NET . **Best for**: Developers wanting a simple, fast search API with modern AI capabilities.
-
-
-
-- **[Elasticsearch](https://github.com/elastic/elasticsearch)**  
-
-  **The most widely deployed open-source search engine.** **Elastic License 2.0 / SSPL licensed**, **72,000+ GitHub stars** . **Key features**: **Distributed full-text search** with BM25; **vector search** with HNSW and kNN; **ELSER** for semantic search; **hybrid search**; **semantic text** field type for automated embedding; **RAG-ready** with chunking and reranking; **aggregations** for analytics; **machine learning** for anomaly detection . **Best for**: Enterprise search, log analytics, and security use cases at scale.
-
-
-
-- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**  
-
-  **Community-driven fork of Elasticsearch under Apache 2.0.** **Apache-2.0 licensed**, **10,000+ GitHub stars** . **Key features**: **Full-text search** with BM25; **vector search** with kNN; **neural search** with embedding processors; **hybrid search**; **SQL support**; **security plugin** with fine-grained access control; **anomaly detection** . **Best for**: Organizations wanting an Apache-2.0 licensed Elasticsearch alternative.
-
-
-
-### Search Infrastructure & Frameworks
-
-
-
-- **[SearXNG](https://github.com/searxng/searxng)**  
-
-  **Free internet metasearch engine.** **AGPL-3.0 licensed** . **Key features**: Aggregates results from 70+ search engines; **privacy-focused** (no tracking, no ads); **self-hosted**; **JSON API**; **customizable engines and categories** . **Best for**: Privacy-conscious users and as a search backend for AI assistants.
-
-
-
-- **[Vespa](https://github.com/vespa-engine/vespa)**  
-
-  **AI-powered search and recommendation engine.** **Apache-2.0 licensed** . **Key features**: **Vector search** with HNSW; **hybrid search**; **real-time indexing**; **machine learning** for ranking; **scalable** to billions of documents . **Best for**: Large-scale search and recommendation applications.
-
-
-
-- **[Typesense Dashboard](https://github.com/typesense/typesense-dashboard)**  
-
-  **Web UI for Typesense.** **GPL-3.0 licensed** . **Key features**: Browse collections; test search queries; manage API keys; view metrics . **Best for**: Teams using Typesense wanting a GUI.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Vector Databases**: **Qdrant** (Rust, hybrid, filtering), **Weaviate** (BSD-3, GraphQL, vectorization modules), **Milvus** (billions of vectors, GPU) .
-
-- **Full-Text Search**: **Typesense** (GPL-3, typo-tolerant), **Meilisearch** (MIT, instant search), **Elasticsearch** (Elastic License, most deployed), **OpenSearch** (Apache-2.0, community fork) .
-
-- **Infrastructure**: **SearXNG** (metasearch), **Vespa** (search + recommendation) .
-
-- **Hybrid Platforms**: **Marqo** (multimodal vector search), **LanceDB** (embedded vector database) .
-
-
-
-**Frameworks for building custom systems**: Combine **Qdrant** for high-performance vector search with advanced filtering, **Typesense** or **Meilisearch** for typo-tolerant instant search, **Elasticsearch** or **OpenSearch** for full-text search at scale, **SearXNG** for private web metasearch, and **Weaviate** for semantic search with built-in vectorization. Add **Docker** for deployment and **Redis** for caching.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI search services handle potentially sensitive data and user queries; ensure compliance with data protection regulations and organizational security policies.
-
-- **Open-source reality**: The open-source ecosystem for AI search services is **exceptionally mature and production-proven**. **Qdrant** (24k+ stars), **Weaviate** (14k+ stars), and **Milvus** (33k+ stars) provide production-grade vector databases with hybrid search, filtering, and multi-tenancy . **Typesense** (21k+ stars) and **Meilisearch** (50k+ stars) deliver fast, typo-tolerant full-text search with modern AI capabilities . **Elasticsearch** and **OpenSearch** remain the workhorses for enterprise search at scale . However, **commercial platforms** (Azure Cognitive Search, Algolia, Pinecone, Amazon Kendra) provide **managed infrastructure, integrated AI enrichment pipelines, and enterprise support** that open-source alternatives require additional configuration to match. The open-source path is **genuinely viable** for teams with strong infrastructure engineering capacity seeking full control and cost optimization.
+Thank you for supporting open-source AI software!  
+*Maintained with ❤️ by [ishandutta2007](https://github.com/ishandutta2007)*
