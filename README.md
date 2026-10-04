@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Service/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Search-Service?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Service/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Search-Service?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Service/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Search-Service?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Search-Service/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Search-Service?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -19,7 +19,7 @@
 
 Welcome to **Awesome AI Search Service**—a comprehensive, curated directory of production-grade **SaaS search platforms**, **vector databases**, **hybrid retrieval engines**, **semantic rankers**, and **open-source AI search engines**.
 
-Whether you are building **Retrieval-Augmented Generation (RAG)** pipelines, enterprise semantic search, e-commerce product discovery, or real-time neural recommendation systems, this guide compares top-tier solutions across features, pricing tiers, free quotas, open-source GitHub star counts, and enterprise scale.
+Whether you are building **Retrieval-Augmented Generation (RAG)** pipelines, enterprise semantic search, e-commerce product discovery, or real-time neural recommendation systems, this guide compares top-tier solutions across features, pricing tiers, free quotas, open-source GitHub Stars_Counts, and enterprise scale.
 
 ### 📊 Market Size & Industry Dynamics
 
@@ -67,7 +67,7 @@ Below is a detailed comparison of managed AI Search Service platforms sorted by 
 
 ## ⚡ Open-Source GitHub Projects
 
-The open-source ecosystem for AI search services is exceptionally mature and production-proven. Projects below are sorted by **GitHub Star Count (Descending)**.
+The open-source ecosystem for AI search services is exceptionally mature and production-proven. Projects below are sorted by **GitHub Stars_Count (Descending)**.
 
 ### 🗄️ Vector Databases
 
@@ -125,7 +125,7 @@ Contributions are welcome! To contribute to **Awesome AI Search Service**:
 
 1. Fork this repository.
 2. Add or update entries in `README.md` keeping descriptions factual, concise, and linked to official documentation.
-3. Verify open-source repository star counts or SaaS pricing plans before submitting.
+3. Verify open-source repository Stars_Counts or SaaS pricing plans before submitting.
 4. Open a Pull Request on [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) with a brief summary of changes.
 
 ---
